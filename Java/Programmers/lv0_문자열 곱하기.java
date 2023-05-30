@@ -1,0 +1,18 @@
+class Solution {
+    public String solution(String my_string, int k) {
+        String answer = "";
+        
+        while (k-- > 0) {
+            answer += my_string;
+        }
+        
+        return answer;
+    }
+}
+
+
+class Solution {
+    public String solution(String my_string, int k) {
+        return my_string.repeat(k);
+    }
+}
